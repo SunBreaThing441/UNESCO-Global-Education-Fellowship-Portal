@@ -1,3 +1,147 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #0c1527;
+    background-image: 
+      linear-gradient(135deg, rgba(12, 21, 39, 0.65) 0%, rgba(15, 23, 42, 0.45) 50%, rgba(10, 25, 47, 0.70) 100%),
+      url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=2000&q=85');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #F8FAFD;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  /* Frosted Glass Panels with Optical Depth */
+  .glass-card {
+    background: rgba(255, 255, 255, 0.82);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.95);
+    box-shadow: 
+      0 10px 30px -5px rgba(10, 37, 68, 0.06), 
+      0 2px 8px 0 rgba(0, 119, 212, 0.04),
+      inset 0 1px 1px 0 rgba(255, 255, 255, 1);
+  }
+
+  .glass-card-hover {
+    transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  
+  .glass-card-hover:hover {
+    transform: translateY(-6px);
+    background: rgba(255, 255, 255, 0.94);
+    border-color: rgba(0, 119, 212, 0.35);
+    box-shadow: 
+      0 24px 48px -12px rgba(0, 119, 212, 0.22), 
+      0 4px 16px 0 rgba(0, 119, 212, 0.08),
+      inset 0 1px 2px 0 rgba(255, 255, 255, 1);
+  }
+
+  .glass-nav {
+    background: rgba(255, 255, 255, 0.86);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 24px -2px rgba(10, 37, 68, 0.05);
+  }
+
+  .glass-input {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(203, 213, 225, 0.8);
+    transition: all 0.25s ease;
+  }
+
+  .glass-input:focus {
+    background: rgba(255, 255, 255, 0.98);
+    border-color: #0077D4;
+    box-shadow: 0 0 0 4px rgba(0, 119, 212, 0.16);
+  }
+
+  /* Radiant Color Psychology Gradients */
+  .bg-mesh-hero {
+    background: linear-gradient(135deg, rgba(0, 119, 212, 0.08) 0%, rgba(0, 229, 255, 0.06) 50%, rgba(99, 102, 241, 0.07) 100%);
+  }
+
+  .gradient-gold-amber {
+    background: linear-gradient(135deg, #F59E0B 0%, #D97706 50%, #B45309 100%);
+  }
+
+  .gradient-emerald-jade {
+    background: linear-gradient(135deg, #10B981 0%, #059669 50%, #047857 100%);
+  }
+
+  .gradient-un-royal {
+    background: linear-gradient(135deg, #0077D4 0%, #005FB8 50%, #0A2544 100%);
+  }
+
+  .gradient-aurora-cyan {
+    background: linear-gradient(135deg, #00E5FF 0%, #0077D4 100%);
+  }
+
+  .text-un-gradient {
+    background: linear-gradient(135deg, #0077D4 0%, #004A94 50%, #0A2544 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text-aurora-gradient {
+    background: linear-gradient(135deg, #0077D4 0%, #00E5FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text-gold-gradient {
+    background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text-emerald-gradient {
+    background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Shimmer Animation */
+  .animate-shimmer-fast {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0) 100%);
+    background-size: 200% 100%;
+    animation: shimmerSlide 2.5s infinite;
+  }
+}
+
+@keyframes shimmerSlide {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(241, 245, 249, 0.6);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 119, 212, 0.28);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 119, 212, 0.55);
+}

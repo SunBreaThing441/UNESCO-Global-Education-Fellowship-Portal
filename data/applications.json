@@ -1,0 +1,98 @@
+[
+  {
+    "id": "f1a2b3c4-1111-4000-8000-000000000001",
+    "title": "Gates Millennium Scholarship",
+    "link": "https://www.gatesfoundation.org/scholarships",
+    "deadline": "2024-12-15",
+    "status": "applied",
+    "submitted_at": "2024-11-01T10:30:00.000Z",
+    "notes": "Strong essay submitted focusing on community service and leadership experience.",
+    "created_at": "2024-11-01T10:30:00.000Z",
+    "updated_at": "2024-11-01T10:30:00.000Z",
+    "user_id": null
+  },
+  {
+    "id": "f1a2b3c4-2222-4000-8000-000000000002",
+    "title": "National Merit Scholarship",
+    "link": "https://www.nationalmerit.org/",
+    "deadline": "2024-11-30",
+    "status": "pending",
+    "submitted_at": null,
+    "notes": "Waiting for PSAT scores to be released. Need to submit additional documentation.",
+    "created_at": "2024-10-15T09:00:00.000Z",
+    "updated_at": "2024-10-15T09:00:00.000Z",
+    "user_id": null
+  },
+  {
+    "id": "f1a2b3c4-3333-4000-8000-000000000003",
+    "title": "Coca-Cola Scholars Program",
+    "link": "https://www.coca-colascholarsfoundation.org/",
+    "deadline": "2024-10-31",
+    "status": "won",
+    "submitted_at": "2024-09-15T14:20:00.000Z",
+    "notes": "Received $20,000 scholarship! Interview went extremely well.",
+    "created_at": "2024-09-15T14:20:00.000Z",
+    "updated_at": "2024-09-15T14:20:00.000Z",
+    "user_id": null
+  },
+  {
+    "id": "f1a2b3c4-4444-4000-8000-000000000004",
+    "title": "Dell Scholars Program",
+    "link": "https://www.dellscholars.org/",
+    "deadline": "2024-12-01",
+    "status": "rejected",
+    "submitted_at": "2024-10-01T09:15:00.000Z",
+    "notes": "Did not meet GPA requirements. Will reapply next year.",
+    "created_at": "2024-10-01T09:15:00.000Z",
+    "updated_at": "2024-10-01T09:15:00.000Z",
+    "user_id": null
+  },
+  {
+    "id": "f1a2b3c4-5555-4000-8000-000000000005",
+    "title": "Jack Kent Cooke Foundation Scholarship",
+    "link": "https://www.jkcf.org/our-scholarships/",
+    "deadline": "2024-11-25",
+    "status": "applied",
+    "submitted_at": "2024-10-20T16:45:00.000Z",
+    "notes": "Comprehensive application with financial aid documentation submitted.",
+    "created_at": "2024-10-20T16:45:00.000Z",
+    "updated_at": "2024-10-20T16:45:00.000Z",
+    "user_id": null
+  },
+  {
+    "id": "f1a2b3c4-6666-4000-8000-000000000006",
+    "title": "QuestBridge National College Match",
+    "link": "https://www.questbridge.org/",
+    "deadline": "2024-12-10",
+    "status": "pending",
+    "submitted_at": null,
+    "notes": "Application in progress. Need to complete college rankings.",
+    "created_at": "2024-10-25T11:00:00.000Z",
+    "updated_at": "2024-10-25T11:00:00.000Z",
+    "user_id": null
+  },
+  {
+    "id": "f1a2b3c4-7777-4000-8000-000000000007",
+    "title": "Hispanic Scholarship Fund",
+    "link": "https://www.hsf.net/",
+    "deadline": "2024-12-31",
+    "status": "applied",
+    "submitted_at": "2024-11-10T11:30:00.000Z",
+    "notes": "Submitted application with community involvement emphasis.",
+    "created_at": "2024-11-10T11:30:00.000Z",
+    "updated_at": "2024-11-10T11:30:00.000Z",
+    "user_id": null
+  },
+  {
+    "id": "f1a2b3c4-8888-4000-8000-000000000008",
+    "title": "Elks National Foundation Most Valuable Student",
+    "link": "https://www.elks.org/scholars/",
+    "deadline": "2024-11-20",
+    "status": "pending",
+    "submitted_at": null,
+    "notes": "Waiting for school counselor recommendation letter.",
+    "created_at": "2024-10-05T08:00:00.000Z",
+    "updated_at": "2024-10-05T08:00:00.000Z",
+    "user_id": null
+  }
+]

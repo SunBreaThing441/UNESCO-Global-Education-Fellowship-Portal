@@ -1,6 +1,8 @@
-# ScholarTrack - Scholarship Management System
+# UNESCO-Global-Education-Fellowship-Portal
 
-A comprehensive full-stack web application for tracking and managing scholarship applications, featuring an AI agent interface for automated submissions.
+## Kaizen | UNESCO Global Education & Fellowship Portal
+
+A comprehensive full-stack web application empowering global scholars, researchers, and students through universal access to higher education opportunities and scholarships in alignment with **UNESCO Sustainable Development Goal 4 (SDG-4)**. Features a modern glassmorphic dashboard, dual-pane authentication, cryptographic session handling, and an automated agent interface.
 
 ## 🌟 Live Demo
 

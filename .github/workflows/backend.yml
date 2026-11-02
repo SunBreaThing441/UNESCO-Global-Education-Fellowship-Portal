@@ -1,0 +1,37 @@
+name: Backend CI Workflow
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test-backend:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Start Backend Server
+        run: |
+          node server.cjs &
+          sleep 3
+
+      - name: Verify Health Endpoint
+        run: curl --fail http://localhost:3001/health
+
+      - name: Verify Summary Endpoint
+        run: curl --fail http://localhost:3001/applications/summary
+
+      - name: Test Runner H Agent Endpoint
+        run: |
+          curl --fail -X POST http://localhost:3001/applications \
+            -H "Content-Type: application/json" \
+            -d '{"title":"CI Test Scholarship","link":"https://example.com","deadline":"2025-06-01","status":"pending"}'
